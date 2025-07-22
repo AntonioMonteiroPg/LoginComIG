@@ -1,0 +1,12 @@
+import bcrypt 
+
+nome = input ("Nome: ")
+email = input("E-mail: ")
+senha = input("Senha: ")
+
+     
+    # Criptografa a senha para guardar segura no banco
+senha_hash = bcrypt.hashpw(senha.encode(), bcrypt.gensalt()).decode()
+
+print (f'INSERT INTO usuarios (nome, email, senha) VALUES ("{nome}", "{email}", "{senha_hash}")')
+    
