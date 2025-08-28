@@ -124,5 +124,3 @@ Copiar
 Editar
 
 ---
-
-Se quiser, posso gerar versões com badges, emojis de seção ou adaptá-lo para um portfólio mais formal 
